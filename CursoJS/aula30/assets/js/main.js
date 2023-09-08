@@ -121,7 +121,7 @@ function getDiaSemanaTexto(diaSemana) {
 function getNomeMes(numeroMes) {
     const meses = ['janeiro', 'fevereiro', 'marco', 'abril', 'maio', 'junho', 'julho',
      'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'];
-     return meses[numeroMes];
+     return meses[numeroMes] ;
 
     
 }
