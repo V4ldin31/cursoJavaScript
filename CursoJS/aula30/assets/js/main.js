@@ -97,14 +97,14 @@ h1.innerHTML = criaData(data);
 */
 
 
-/* Forma simples de fazer a mesma coisa de forma simplificada, mas não esta funcionando 
+/* Segunda Forma simples de fazer a mesma coisa de forma simplificada, mas não esta funcionando
+esta dando erro no pt-BR */
 
-const h1 = document.querySelector('.container h1');
+const h1 = document.querySelector('.container ');
 const data = new Date();
-h1.innerHTML = data.toLocaleDateString('pt-BR', { dateStyle: 'full', timeStyle: 'short' });
-*/
+h1.innerHTML = data.toLocaleDateString('pt-BR', { dateStyle: "full", timeStyle: "short" }); 
 
-/* Terceira forma de fazer */
+/* Terceira forma de fazer 
 
 const h1 = document.querySelector('.container h1');
 const data = new Date();
@@ -142,3 +142,4 @@ function criaData(data) {
     );
 }
 h1.innerHTML = criaData(data);
+*/
